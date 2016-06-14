@@ -17,4 +17,4 @@ $(OUT)/%.html: $(IN)/%.md
 clean:
 	rm -rf $(OUT)/*
 
-.PHONY: clean
+.PHONY: clean all

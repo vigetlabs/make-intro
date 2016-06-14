@@ -7,6 +7,8 @@
 # A Makefile consists of rules. A rule follows a
 # specific structure:
 
+all: dist/post.html
+
 dist/post.html: src/post.md
 	markdown src/post.md > dist/post.html
 
